@@ -1,0 +1,6 @@
+{
+  "name": "figcraft",
+  "command": "node",
+  "args": ["bin/figcraft-mcp-bridge.js"],
+  "transport": "stdio"
+}

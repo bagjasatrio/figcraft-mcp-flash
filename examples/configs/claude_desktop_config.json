@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "figcraft": {
+      "command": "node",
+      "args": [
+        "/path/to/figcraft-mcp-flash/bin/figcraft-mcp-bridge.js"
+      ],
+      "env": {
+        "FIGCRAFT_PORT": "9005"
+      }
+    }
+  }
+}

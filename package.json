@@ -1,0 +1,39 @@
+{
+  "name": "figcraft-mcp-flash",
+  "version": "1.0.0",
+  "description": "Universal Model Context Protocol (MCP) server & harness connector for FigCraft vector design engine",
+  "main": "index.js",
+  "bin": {
+    "figcraft-mcp": "./bin/figcraft-mcp-bridge.js",
+    "figcraft-mcp-bridge": "./bin/figcraft-mcp-bridge.js"
+  },
+  "scripts": {
+    "start": "node bin/figcraft-mcp-bridge.js",
+    "test-connection": "node scripts/test-connection.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "figcraft",
+    "figma",
+    "design",
+    "ai-agent",
+    "claude-desktop",
+    "cursor",
+    "windsurf",
+    "cline"
+  ],
+  "author": "Bagja Satrio <muhamadbagjasatrio@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bagjasatrio/figcraft-mcp-flash.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bagjasatrio/figcraft-mcp-flash/issues"
+  },
+  "homepage": "https://github.com/bagjasatrio/figcraft-mcp-flash#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

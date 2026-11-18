@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "figcraft": {
+      "command": "node",
+      "args": [
+        "/absolute/path/to/figcraft-mcp-flash/bin/figcraft-mcp-bridge.js"
+      ]
+    }
+  }
+}

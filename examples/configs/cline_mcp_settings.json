@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "figcraft": {
+      "command": "node",
+      "args": [
+        "path/to/figcraft-mcp-flash/bin/figcraft-mcp-bridge.js"
+      ],
+      "disabled": false,
+      "autoApprove": [
+        "inspect_document",
+        "get_node",
+        "screenshot",
+        "inspect_ui",
+        "list_commands"
+      ]
+    }
+  }
+}
